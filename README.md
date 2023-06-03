@@ -28,5 +28,5 @@ https://file.notion.so/f/s/e15b505d-ea8a-49d5-a99f-ae827ddd98c7/Webserv_subj.pdf
 ### Get
 ### 스트레스 테스트 (Siege)
 
-# Original_Project_Git
+# Original_TeamProject_Git
 https://github.com/Tiny-Webserv/Baseline
