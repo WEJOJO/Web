@@ -5,6 +5,7 @@ https://file.notion.so/f/s/e15b505d-ea8a-49d5-a99f-ae827ddd98c7/Webserv_subj.pdf
 - 멀티플렉싱 기반의 Socket , TCP/IP 웹 서버 제작.
 - Non-Block 기능의 서버.
 - GET / POST / DELETE 기능.
+- 금지한 HTTP 메서드 허용X.
 - Configure File에 대한 파싱 및 룰 제작.
 - Php 해석 기능.
 - Upload 기능.
