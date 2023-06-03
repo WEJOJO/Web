@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>이미지 업로드 및 내려받기</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style>
+		.container {
+			margin-top: 50px;
+            display: flex;
+            width: 50%;
+            justify-content: center;
+		}
+		.card {
+			border-radius: 0;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+		.card-header {
+			background-color: #007bff;
+			color: #fff;
+		}
+		.card-body {
+			padding: 30px;
+		}
+		.form-group {
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-header">
+				<h3 class="text-center">이미지 업로드 및 내려받기</h1>
+			</div>
+			<div class="card-body">
+				<form action="/upload" method="post" enctype="multipart/form-data">
+					<div class="form-group">
+						<label for="file">이미지 선택:</label>
+						<input type="file" class="form-control-file" id="file" name="file">
+					</div>
+						<button type="submit" class="btn btn-primary btn-block">업로드</button>
+				</form>
+				<br><br>
+				<h3 class="text-center">이미지 요청 및 표시</h1>
+				<br><br>
+				<img id="image" src="/download" alt="이미지" class="img-fluid">
+				<br><br>
+				<h3 class="text-center">POST 요청</h1>
+				<form method="POST" action="/post.php">
+					<div class="form-group">
+						<label for="name">이름:</label>
+						<input type="text" class="form-control" id="name" name="Name">
+					</div>
+					<div class="form-group">
+						<label for="age">나이:</label>
+						<input type="number" class="form-control" id="age" name="Age">
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">전송</button>
+				</form>
+				<br><br>
+                <h3 class="text-center">GET 요청</h1>
+                    <form method="GET" action="/GET.php">
+                        <div class="form-group">
+                            <label for="name">이름:</label>
+                            <input type="text" class="form-control" id="name" name="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">나이:</label>
+                            <input type="number" class="form-control" id="age" name="Age">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">전송</button>
+                    </form>
+			</div>
+		</div>
+	</div>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

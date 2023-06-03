@@ -1,0 +1,7 @@
+a.out
+webserv
+objs/*
+objs
+.DS_Store
+.vscode/*
+output.txt

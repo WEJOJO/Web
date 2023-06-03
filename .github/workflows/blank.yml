@@ -1,0 +1,53 @@
+name: Merge Main to Develop Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-develop:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge Main to Develop
+        uses: actions/github-script@v4
+        with:
+          script: |
+            async function run() {
+              const base = 'develop';
+              const head = 'main';
+
+              const { data: pullRequests } = await github.pulls.list({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+                base,
+                head,
+              });
+
+              if (pullRequests.length > 0) {
+                console.log(`There is already an open pull request from ${head} to ${base}`);
+                return;
+              }
+
+              try {
+                const { data: mergeResult } = await github.repos.merge({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  base,
+                  head,
+                  commit_message: `Merge ${head} into ${base}`,
+                });
+                console.log(`Merged ${head} into ${base} with commit ${mergeResult.sha}`);
+              } catch (error) {
+                console.log(`Failed to merge ${head} into ${base}: ${error.message}`);
+              }
+            }
+
+            run();
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
