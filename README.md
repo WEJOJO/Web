@@ -30,3 +30,6 @@ https://file.notion.so/f/s/e15b505d-ea8a-49d5-a99f-ae827ddd98c7/Webserv_subj.pdf
 
 # Original_TeamProject_Git
 https://github.com/Tiny-Webserv/Baseline
+
+# Notion
+https://kindly-koi-e00.notion.site/Socket-HTTP-Webserv-8ac693c96b5840229017708d03255e87
