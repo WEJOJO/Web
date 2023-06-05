@@ -31,10 +31,10 @@ https://file.notion.so/f/s/e15b505d-ea8a-49d5-a99f-ae827ddd98c7/Webserv_subj.pdf
 ![web2](https://github.com/WEJOJO/Web/assets/46590247/5c3d4eae-ae83-464a-aad9-b8b9dbed1acc)
 
 ### 스트레스 테스트 (Siege)
+![web3](https://github.com/WEJOJO/Web/assets/46590247/a980ca33-b2f8-4644-a9f8-f64a1b35e815)
 
 ### Default Config File
 <img width="1780" alt="Screen Shot 2023-06-05 at 9 08 16 PM" src="https://github.com/WEJOJO/Web/assets/46590247/4e2894aa-aa03-4f0e-9096-302dda28a7ae">
-
 
 # Original_TeamProject_Git
 https://github.com/Tiny-Webserv/Baseline
