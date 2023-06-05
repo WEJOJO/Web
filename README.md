@@ -28,8 +28,13 @@ https://file.notion.so/f/s/e15b505d-ea8a-49d5-a99f-ae827ddd98c7/Webserv_subj.pdf
 ### Get
 ### 스트레스 테스트 (Siege)
 
+### Default Config File
+<img width="1780" alt="Screen Shot 2023-06-05 at 9 08 16 PM" src="https://github.com/WEJOJO/Web/assets/46590247/4e2894aa-aa03-4f0e-9096-302dda28a7ae">
+
+
 # Original_TeamProject_Git
 https://github.com/Tiny-Webserv/Baseline
 
 # Notion
 https://kindly-koi-e00.notion.site/Socket-HTTP-Webserv-8ac693c96b5840229017708d03255e87
+
