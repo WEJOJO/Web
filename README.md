@@ -25,7 +25,11 @@ https://file.notion.so/f/s/e15b505d-ea8a-49d5-a99f-ae827ddd98c7/Webserv_subj.pdf
 ![web5](https://github.com/WEJOJO/Web/assets/46590247/9a82ce4c-c0b6-4ee2-aa32-0f0b9b1a1a88)
 
 ### Post
+![web1](https://github.com/WEJOJO/Web/assets/46590247/1f0ff4e1-0684-4fa5-bfb5-23d7df33f8af)
+
 ### Get
+![web2](https://github.com/WEJOJO/Web/assets/46590247/5c3d4eae-ae83-464a-aad9-b8b9dbed1acc)
+
 ### 스트레스 테스트 (Siege)
 
 ### Default Config File
